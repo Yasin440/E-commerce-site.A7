@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.navbar{
+  background-color: #8311a821;
+}
+.btn-outline-success{
+  font-weight: 600 !important;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,18 +19,23 @@ body {
   align-items: center;
   justify-content: center;
 }
-.single-product {
+.card {
   padding: 10px;
   transition: 0.6s;
+  height: 600px;
 }
-.single-product:hover {
+.card:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
 }
-.product-image {
-  width: 150px;
-  height: 150px;
+.card-img-top{
+  width: 162px !important;
+  height: 200px !important;
+  margin: auto;
+}
+.card-footer{
+  background-color: #8311a821 !important;
 }
 .cart {
   width: 350px;
